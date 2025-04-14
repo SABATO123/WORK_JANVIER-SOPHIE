@@ -10,7 +10,6 @@ use App\Http\Controllers\Admin\RouteController;
 use App\Http\Controllers\Admin\BookingController;
 use App\Http\Controllers\Admin\PassengerController;
 
-
 Route::get('/', function () {
     $buses = \App\Models\Bus::with(['routes' => function($query) {
         $query->whereDate('departure_time', '>=', now())
