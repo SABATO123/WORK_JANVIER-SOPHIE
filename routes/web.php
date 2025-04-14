@@ -10,7 +10,7 @@ use App\Http\Controllers\Admin\RouteController;
 use App\Http\Controllers\Admin\BookingController;
 use App\Http\Controllers\Admin\PassengerController;
 
-// Public Routes
+
 Route::get('/', function () {
     $buses = \App\Models\Bus::with(['routes' => function($query) {
         $query->whereDate('departure_time', '>=', now())
@@ -87,7 +87,6 @@ Route::prefix('admin')->middleware('auth')->middleware(\App\Http\Middleware\Chec
     ])->except(['create', 'store']);
 });
 
-// Passenger Routes
 // Guest accessible route for booking form (will redirect to login)
 Route::get('/routes/{route}/book', [PassengerDashboard::class, 'showBookingForm'])
     ->name('passenger.routes.book.form')
