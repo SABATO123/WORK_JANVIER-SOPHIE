@@ -34,7 +34,7 @@
         </div>
     </div>
 
-        <!-- Call to action section -->
+       
         <div class="py-12 bg-white dark:bg-gray-900">
             <div class="px-4 mx-auto max-w-3xl sm:px-6">
                 <div class="relative bg-gradient-to-r from-blue-600 to-blue-700 shadow-xl rounded-lg overflow-hidden">
