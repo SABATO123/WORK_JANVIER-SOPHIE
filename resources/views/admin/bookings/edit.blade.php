@@ -37,7 +37,6 @@
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
-
                 <div>
                     <label for="route_id" class="block text-sm font-medium text-gray-700">Route</label>
                     <select name="route_id" id="route_id" required
