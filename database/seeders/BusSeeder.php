@@ -1,7 +1,6 @@
 <?php
 
 namespace Database\Seeders;
-
 use App\Models\Bus;
 use Illuminate\Database\Seeder;
 
