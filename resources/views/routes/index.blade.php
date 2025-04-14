@@ -11,7 +11,7 @@
             <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
                 <div class="p-6">
                     <div class="flex justify-between items-start mb-4">
-                        <div>
+                        <div> 
                             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                                 {{ $route->from }} → {{ $route->to }}
                             </h3>
