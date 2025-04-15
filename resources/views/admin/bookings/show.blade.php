@@ -28,7 +28,7 @@
                     @elseif($booking->status === 'cancelled') bg-red-100 text-red-800
                     @else bg-yellow-100 text-yellow-800 @endif">
                     {{ ucfirst($booking->status) }}
-                </span>
+                </span> 
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -48,7 +48,7 @@
                                 <span class="font-medium">Type:</span><br>
                                 {{ $booking->route->bus->type }}
                             </p>
-                        </div>
+                        </div> 
                     </div>
 
                     <div>
