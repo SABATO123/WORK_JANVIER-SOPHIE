@@ -74,7 +74,6 @@
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
-
                 <div>
                     <label for="passenger_name" class="block text-sm font-medium text-gray-700">Passenger Name</label>
                     <input type="text" name="passenger_name" id="passenger_name" required
@@ -84,7 +83,6 @@
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror
                 </div>
-
                 <div>
                     <label for="passenger_phone" class="block text-sm font-medium text-gray-700">Passenger Phone</label>
                     <input type="tel" name="passenger_phone" id="passenger_phone" required
