@@ -16,7 +16,6 @@ class Bus extends Model
         'status',
         'image'
     ];
-
     protected $appends = ['image_url'];
 
     protected $casts = [
