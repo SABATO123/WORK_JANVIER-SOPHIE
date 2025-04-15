@@ -18,7 +18,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="mb-6">
                     <img src="{{ $bus->image_url }}" alt="{{ $bus->name }}" class="w-full h-64 object-cover rounded-lg shadow-md">
                 </div>
