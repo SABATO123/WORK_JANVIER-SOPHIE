@@ -25,7 +25,6 @@ class LoginController extends Controller
             
             return redirect(auth()->user()->role === 'admin' ? '/admin/dashboard' : '/passenger/dashboard');
         }
-
         return back()->withErrors([
             'email' => 'The provided credentials do not match our records.',
         ]);
