@@ -10,9 +10,7 @@ use Illuminate\Support\Facades\Storage;
 
 class BusController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+  
     public function index()
     {
         $buses = Bus::latest()->paginate(10);
