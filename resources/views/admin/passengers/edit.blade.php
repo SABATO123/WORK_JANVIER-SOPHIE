@@ -17,7 +17,7 @@
             </ul>
         </div>
         @endif
-
+  
         <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
             <form action="{{ route('admin.passengers.update', $passenger) }}" method="POST">
                 @csrf
